@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/green/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/green/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/green/favicon-16x16.png">
+  <link rel="manifest" href="/img/favicons/green/site.webmanifest">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{files.0.name}}</title>
+  <link rel="stylesheet" href="https://gist.githubusercontent.com/Sebastian-Nielsen/c0c1b0acb2a58aba99f4cc0612afe1c9/raw/96f852ea1c5ba7d06252a9206f18e1b7ecd966a6/stackedit_custom_style.css" />
+</head>
+
+{{#if pdf}}
+<body class="stackedit stackedit--pdf">
+{{else}}
+<body class="stackedit">
+{{/if}}
+
+<a href="../" style="
+    position:  absolute;
+    top:  10px;
+    left:  10px;
+">Back</a>  
+
+<div class="stackedit__html">{{{files.0.content.html}}}</div>
+
+</body>
+
+</html>
